@@ -1,0 +1,99 @@
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.form-main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to right, #6b5e71,#a27e94,#a87d96);
+}
+.admin-btn,.user-btn{
+  position: absolute;
+  bottom: 2%;
+  
+  padding: 10px 15px;
+  font-size: 18px;
+  font-weight: 700;
+  background: rgb(35, 96, 142);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.5s ease-in-out;
+}
+.admin-btn{
+right: 1%;
+}
+.user-btn{
+  left: 1%;
+}
+.admin-btn:hover{
+  background: rgb(16, 30, 46);
+}
+.Container {
+    width: 25%;
+    height: 45%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color:transparent;
+    color: white; 
+  }
+  
+  .Container h2 {
+    color: white; 
+  }
+  
+  .Container form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .Container input
+   {
+   
+    margin-bottom: 10px;
+    padding: 10px;
+    box-shadow: 2px 3px 2px rgb(33, 15, 33);
+    border-radius: 10px;
+    border: 1px solid #ccc;
+   font-weight: 800;
+   font-size: 20px;
+    color: rgb(0, 0, 0); 
+  }
+  .Container button {
+    padding: 10px 20px;
+    border: none;
+    width: 50%;
+    margin: auto;
+    margin-top: 4%;
+    border-radius: 10px;
+    background-color: #1abc9c;
+    color: white;
+    font-size: 24px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .Container button:hover {
+    background-color: #057b65;
+  }
+  .Container textarea{
+   
+    justify-content: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color:white;;
+    color: rgb(6, 5, 5); 
+
+  }
